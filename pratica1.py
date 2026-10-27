@@ -31,11 +31,11 @@ import time
 # Cada tarefa usa um tempo de espera simulado, em segundos.
 TAREFAS = [
     ("Consulta ao sensor", 1.0),
-    ("Validação dos dados*", 1.0),
+    ("Validação dos dados", 1.0),
     ("Leitura do banco de dados", 2.0),
-    ("Processamento dos dados*", 5.0),
+    ("Processamento dos dados", 5.0),
     ("Envio do relatório", 1.5),
-    ("Reset do sensor*", 0.5),
+    ("Reset do sensor", 0.5),
 ]
 
 
